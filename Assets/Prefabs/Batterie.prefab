@@ -232,6 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5797942592267452156}
   - component: {fileID: 5467268317582745246}
+  - component: {fileID: 3893691759698079964}
   m_Layer: 0
   m_Name: Batterie
   m_TagString: Untagged
@@ -278,6 +279,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5134492, y: 0.29630387, z: 1.2607489}
   m_Center: {x: -0.0015480518, y: 0.51891524, z: -0.0062422752}
+--- !u!114 &3893691759698079964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5004929346244944128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359b219b2554d784eabe366d6075356f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BatterieCollectable
 --- !u!1 &6035926776172690806
 GameObject:
   m_ObjectHideFlags: 0
