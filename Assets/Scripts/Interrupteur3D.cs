@@ -16,7 +16,8 @@ public class Interrupteur3D : MonoBehaviour
     //
     // SerializeField permet d'associer une porte
     // directement dans l'Inspector de Unity.
-    [SerializeField] private PorteSortie3D porte;
+    //[SerializeField] private PorteSortie3D porte;
+    [SerializeField] private GameObject porteMobile;
 
     // Variable indiquant si le joueur se trouve
     // dans la zone d'interaction de l'interrupteur.
@@ -31,7 +32,7 @@ public class Interrupteur3D : MonoBehaviour
     public void Configurer(PorteSortie3D porteAssociee)
     {
         // Enregistrer la référence à la porte.
-        porte = porteAssociee;
+        //porte = porteAssociee;
     }
 
     // Update() est appelée une fois par image.
@@ -54,12 +55,12 @@ public class Interrupteur3D : MonoBehaviour
         // L'opérateur && signifie ET logique.
         // Les trois conditions doivent être vraies.
         if (joueurProche &&
-            Input.GetKeyDown(KeyCode.E) &&
-            porte != null)
+            Input.GetKeyDown(KeyCode.E) && porteMobile)
         {
             // Appeler la méthode Ouvrir()
             // du script PorteSortie3D.
-            porte.Ouvrir();
+            //porte.Ouvrir();
+            porteMobile.SetActive(false);
         }
     }
 
