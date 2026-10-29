@@ -64,12 +64,16 @@
     <Compile Include="Assets\Scripts\CameraSuiveuse3D.cs" />
     <Compile Include="Assets\Scripts\PorteSortie3D.cs" />
     <Compile Include="Assets\Scripts\ControleurRobot3D.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\TournerSkyBox.cs" />
+    <Compile Include="Assets\Scripts\VenteArbreSimple.cs" />
     <Compile Include="Assets\Scripts\Interrupteur3D.cs" />
     <Compile Include="Assets\Scripts\BatterieCollectable.cs" />
     <Compile Include="Assets\Scripts\ZoneDangereuse3D.cs" />
     <Compile Include="Assets\Scripts\GestionnaireJeu3D.cs" />
     <Compile Include="Assets\Scripts\AnimationObjetPedagogique.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Models\RustyBlackShovel\readme_first.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
